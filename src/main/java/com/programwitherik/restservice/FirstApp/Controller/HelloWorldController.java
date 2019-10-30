@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class HelloWorldController {
 
-   public class HelloWorld{
-
         @Value("${spring.name}")
 
         private String name;
@@ -25,5 +23,5 @@ public class HelloWorldController {
 
     }
 
-}
+
 
