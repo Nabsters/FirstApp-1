@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class HelloWorldController {
-    @RequestMapping("/helloworld")
-    @RestController
-    public class HelloWorld{
+
+   public class HelloWorld{
 
         @Value("${spring.name}")
 
@@ -27,3 +26,4 @@ public class HelloWorldController {
     }
 
 }
+
